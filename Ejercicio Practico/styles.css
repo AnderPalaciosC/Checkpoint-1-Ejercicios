@@ -1,0 +1,79 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridOne p:last-child {
+    color: blue;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.gridTwo > .div-gridTwo-1 p {
+    background-color: red;
+}
+
+.gridTwo > .div-gridTwo-2 p {
+    background-color: blue;
+}
+
+.gridTwo > .div-gridTwo-3 p {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.gridThree > .div-gridThree-1 {
+    background-color: aliceblue;
+}
+
+.gridThree > .div-gridThree-2 {
+    background-color: lightyellow;
+}
+
+.gridThree > .div-gridThree-2 img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+.gridFour > #div-gridFour-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFour > #gridFive {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.gridFour > #gridFive img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix p {
+    font-family: 'Poor Story', sans-serif;
+}
+
+.gridSix {
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
